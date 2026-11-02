@@ -20,7 +20,7 @@ def prepare(destination):
         raise ValueError('Choose a separate delivery directory within the workspace')
     files = {ROOT / name for name in ('README.md', 'pyproject.toml', 'requirements-lock.txt', '.gitignore', '.gitattributes')}
     for pattern in ('src/rov_mlbb/*.py', 'tests/*.py', 'scripts/*.py', 'scripts/*.cmd',
-                    'config/*.json', 'data/sample/*.json', 'docs/*.md', 'notebooks/analysis.ipynb'):
+                    'config/*.json', 'data/sample/*.json', 'data/sample/*.md', 'docs/*.md', 'notebooks/analysis.ipynb'):
         files.update(ROOT.glob(pattern))
     for name in ('manifest.json', 'summary/monthly_game_metrics.csv', 'summary/monthly_game_metrics.parquet',
                  'report/report.md', 'report/overview.png', 'report/historical_analysis.json',

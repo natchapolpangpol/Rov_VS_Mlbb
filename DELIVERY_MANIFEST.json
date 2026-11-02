@@ -50,7 +50,7 @@
     },
     {
       "path": "artifacts/verification/final_environment.json",
-      "sha256": "4ea8b92429032813df6e9aa0fc6fe0d3f19b8283746a1efa8ca7ea92b594a0ca"
+      "sha256": "cd7d3cb4fa35721edeb4858e682da7ba6e1d6b228342c315d05190ce17987b25"
     },
     {
       "path": "artifacts/verification/firestore_notebook_reconciliation.json",
@@ -87,6 +87,10 @@
     {
       "path": "data/sample/playstore.json",
       "sha256": "a2f25b6dee4894f103c9e5d5e69d9d6e8b4ab4a800966af99a937ffb2e71e480"
+    },
+    {
+      "path": "data/sample/README.md",
+      "sha256": "021b13373d114a7f3302b2f751edd410d10036daf09b9a04ada313832e4b1439"
     },
     {
       "path": "data/sample/trends.json",
@@ -198,7 +202,7 @@
     },
     {
       "path": "scripts/prepare_portfolio.py",
-      "sha256": "760be900c33fda8ac77e2bd4f74c6bd8a6868c166a141e7c5a40490f90ff7c37"
+      "sha256": "0c624e3282f4090e5c513f6af7af5d0d8310141599c41ab48726cac3959698a7"
     },
     {
       "path": "scripts/verify_schedule.py",

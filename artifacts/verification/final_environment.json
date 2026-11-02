@@ -178,7 +178,7 @@
     "scripts/build_sample.py": "d6aa939052a00ea7c368cf63f276257677fff32dc630d7ea5d3843edc043c6e2",
     "scripts/demo.py": "f2c13f29e1b63f35e22513ae45d0ccd4e885c1eaae11d75e7d7c258126cbd3d9",
     "scripts/execute_notebook.py": "964fe63ecf261827cdbcedfb1a9b9abfdd13963188303c11c5274e973bdfbd61",
-    "scripts/prepare_portfolio.py": "760be900c33fda8ac77e2bd4f74c6bd8a6868c166a141e7c5a40490f90ff7c37",
+    "scripts/prepare_portfolio.py": "0c624e3282f4090e5c513f6af7af5d0d8310141599c41ab48726cac3959698a7",
     "scripts/verify_schedule.py": "42f9102d42c96f2690ab4c29c93da5d98c76862a38b08089c5b366975d9b8148",
     "src/rov_mlbb/__init__.py": "b290bd0c8ec7e2c501125ec1aa37f877a59576480a2e3c7a8ee4d4ff7e4a1976",
     "src/rov_mlbb/aggregate.py": "fd4ec0dfac20218176680fbabced7e86a87d48ebea36253ac312662ce23e7ec3",
@@ -203,5 +203,6 @@
     "tests/test_quality.py": "5a4c0325f4581e0bc2bb56db64c60332050e33d218d4fcc7c72d26fde641688d",
     "tests/test_report.py": "cfd02377ab4ab715610f67a61cf44cb673d721fc6358f4034741b9bfe06df288"
   },
-  "line_endings": "Delivery text normalized to LF after verification; no semantic changes."
+  "line_endings": "Delivery text normalized to LF after verification; no semantic changes.",
+  "delivery_note": "Portfolio allowlist includes the synthetic data README; no pipeline behavior changed."
 }
