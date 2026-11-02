@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "source": "trends",
+  "data_kind": "sample",
+  "collected_at": "2025-04-02T00:00:00Z",
+  "context": {
+    "selection": "SYNTHETIC fixture, not Google data",
+    "scale": "joint_request",
+    "query_id": "sample-joint-2025-q1",
+    "terms": {
+      "rov": "rov",
+      "mlbb": "mlbb"
+    },
+    "geo": "TH"
+  },
+  "coverage": {
+    "rov": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    },
+    "mlbb": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    }
+  },
+  "records": [
+    {
+      "game": "rov",
+      "date": "2025-01-01",
+      "period_end": "2025-01-31",
+      "interest": 60,
+      "is_partial": false
+    },
+    {
+      "game": "rov",
+      "date": "2025-02-01",
+      "period_end": "2025-02-28",
+      "interest": 50,
+      "is_partial": false
+    },
+    {
+      "game": "rov",
+      "date": "2025-03-01",
+      "period_end": "2025-03-31",
+      "interest": 40,
+      "is_partial": false
+    },
+    {
+      "game": "mlbb",
+      "date": "2025-01-01",
+      "period_end": "2025-01-31",
+      "interest": 20,
+      "is_partial": false
+    },
+    {
+      "game": "mlbb",
+      "date": "2025-02-01",
+      "period_end": "2025-02-28",
+      "interest": 30,
+      "is_partial": false
+    },
+    {
+      "game": "mlbb",
+      "date": "2025-03-01",
+      "period_end": "2025-03-31",
+      "interest": 40,
+      "is_partial": false
+    }
+  ]
+}

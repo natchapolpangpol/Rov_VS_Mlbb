@@ -1,0 +1,14 @@
+{
+  "project_root": "..",
+  "data_kind": "sample",
+  "artifact_root": "artifacts",
+  "study_start": "2025-01-01",
+  "study_end": "2025-03-31",
+  "timezone": "Asia/Bangkok",
+  "max_rejected_fraction": 0.05,
+  "inputs": {
+    "trends": "data/sample/trends.json",
+    "youtube": "data/sample/youtube.json",
+    "playstore": "data/sample/playstore.json"
+  }
+}

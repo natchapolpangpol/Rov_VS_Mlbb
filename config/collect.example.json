@@ -1,0 +1,13 @@
+{
+  "project_root": "..",
+  "study_start": "2025-01-01",
+  "study_end": "2025-03-31",
+  "timezone": "Asia/Bangkok",
+  "trends": {"terms": {"rov": "rov", "mlbb": "mlbb"}},
+  "youtube": {
+    "channels": ["UCy19QXxbCHh8qVVCbuGk-ig", "UC8aSgy03oQ7aQmJ2e5SrzBg"],
+    "max_pages_per_channel": 5
+  },
+  "playstore": {"language": "th", "max_pages_per_game": 5},
+  "note": "Example only. Two channels taken from original notebook, not a representative Thai audience. Confirm scope and dates before full collection."
+}

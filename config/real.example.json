@@ -1,0 +1,15 @@
+{
+  "project_root": "..",
+  "data_kind": "real",
+  "artifact_root": "artifacts",
+  "study_start": "2025-01-01",
+  "study_end": "2025-03-31",
+  "timezone": "Asia/Bangkok",
+  "max_rejected_fraction": 0.05,
+  "inputs": {
+    "trends": "data/imports/trends.json",
+    "youtube": "data/imports/youtube.json",
+    "playstore": "data/imports/playstore.json"
+  },
+  "note": "Example only: replace dates after checking real coverage. Missing files must fail, not substitute sample data."
+}

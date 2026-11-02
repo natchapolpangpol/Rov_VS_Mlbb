@@ -1,0 +1,141 @@
+{
+  "artifact_dir": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\artifacts\\real\\runs\\fd1a7d895cb3477ea72591e4199e5e38",
+  "config_hash": "45d715f0da750bb6b0cad84992e14c2faed1256c1b4b345ac2219a2cc1e769b1",
+  "data_kind": "real",
+  "database": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\artifacts\\real\\pipeline.sqlite",
+  "finished_at": "2026-11-02T15:29:35.896947+00:00",
+  "run_id": "fd1a7d895cb3477ea72591e4199e5e38",
+  "sources": {
+    "playstore": {
+      "accepted_rows": 16288,
+      "collected_at": null,
+      "collection_time_status": "unknown",
+      "coverage": {
+        "mlbb": {
+          "end": "2026-02-04",
+          "note": "All documents from the team archive exported; completeness of original API collection is unverified. Review filtering and source selection follow the original notebook.",
+          "start": "2025-03-18",
+          "status": "partial"
+        },
+        "rov": {
+          "end": "2026-02-04",
+          "note": "All documents from the team archive exported; completeness of original API collection is unverified. Review filtering and source selection follow the original notebook.",
+          "start": "2025-03-16",
+          "status": "partial"
+        }
+      },
+      "duplicate_rows": 0,
+      "input_rows": 16288,
+      "provenance": {
+        "collected_no_later_than": "2026-03-17T09:42:59.316150+00:00",
+        "collection_time_status": "unknown",
+        "exported_at": "2026-11-02T15:21:48.600290+00:00",
+        "notebook_sha256": "bdf9a621f15a8e066b51785f1249425ed2b403cd7b310e6e364c74ba24d5776f",
+        "snapshot_id": "5b27e4334bbc22cc71250b2a60409ee42d8f2df2517d11301bae92d0f37e7f17",
+        "source_exports": [
+          {
+            "collection": "rov_google_play",
+            "document_count": 11613,
+            "manifest": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\data\\imports\\firestore-ab81b69c93f9448aa030d34ca488e2cf\\manifest.json",
+            "records_sha256": "e94feddf6488a58be5786d062ec27529d7a111b0433767c178c74e5df8108925"
+          },
+          {
+            "collection": "mlbb_google_play",
+            "document_count": 4675,
+            "manifest": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\data\\imports\\firestore-67f2e1beb8014678a19825d3a04b077d\\manifest.json",
+            "records_sha256": "c6e990840cd6b9d0dadc6a2ea7a363280a3fa9fab841f90fd0eb1665f32a1425"
+          }
+        ],
+        "timing_basis": "Original notebook and archived records omit collection time. Firestore document updateTime supplies only a no-later-than bound; export time is recorded separately."
+      },
+      "raw_path": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\artifacts\\real\\runs\\fd1a7d895cb3477ea72591e4199e5e38\\raw\\playstore.json",
+      "raw_sha256": "448aa06959a88b6b49015dc5fa9c8d62e010b9474241bb19acd9305dba346388",
+      "reasons": {},
+      "rejected_fraction": 0.0,
+      "rejected_rows": 0,
+      "source": "playstore"
+    },
+    "trends": {
+      "accepted_rows": 124,
+      "collected_at": "2026-11-02T15:26:51.407431+00:00",
+      "collection_time_status": "known",
+      "coverage": {
+        "mlbb": {
+          "end": "2026-03-14",
+          "note": "Google sampled search interest, normalized jointly within this query window",
+          "start": "2024-12-29",
+          "status": "partial"
+        },
+        "rov": {
+          "end": "2026-03-14",
+          "note": "Google sampled search interest, normalized jointly within this query window",
+          "start": "2024-12-29",
+          "status": "partial"
+        }
+      },
+      "duplicate_rows": 0,
+      "input_rows": 126,
+      "provenance": {},
+      "raw_path": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\artifacts\\real\\runs\\fd1a7d895cb3477ea72591e4199e5e38\\raw\\trends.json",
+      "raw_sha256": "667f7c3c12468e1b4db065cb4a1d3e49afd555fe447e4c9ac3a7ec6797fc2c9f",
+      "reasons": {
+        "partial_trend_interval": 2
+      },
+      "rejected_fraction": 0.015873015873015872,
+      "rejected_rows": 2,
+      "source": "trends"
+    },
+    "youtube": {
+      "accepted_rows": 5826,
+      "collected_at": null,
+      "collection_time_status": "unknown",
+      "coverage": {
+        "mlbb": {
+          "end": "2026-03-10",
+          "note": "All documents from the team archive exported; completeness of original API collection is unverified. Review filtering and source selection follow the original notebook.",
+          "start": "2025-01-01",
+          "status": "partial"
+        },
+        "rov": {
+          "end": "2026-03-10",
+          "note": "All documents from the team archive exported; completeness of original API collection is unverified. Review filtering and source selection follow the original notebook.",
+          "start": "2025-01-01",
+          "status": "partial"
+        }
+      },
+      "duplicate_rows": 0,
+      "input_rows": 5826,
+      "provenance": {
+        "collected_no_later_than": "2026-03-16T07:51:01.117452+00:00",
+        "collection_time_status": "unknown",
+        "exported_at": "2026-11-02T15:21:52.012858+00:00",
+        "notebook_sha256": "bdf9a621f15a8e066b51785f1249425ed2b403cd7b310e6e364c74ba24d5776f",
+        "snapshot_id": "d92b163821829b01abe8f19088c4a9ca3a850bdb92993f74c42f7a260344d1dd",
+        "source_exports": [
+          {
+            "collection": "rov_youtube",
+            "document_count": 3381,
+            "manifest": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\data\\imports\\firestore-50f1d82978134585a190db1120bdda7c\\manifest.json",
+            "records_sha256": "ba19cded58a4de82f03779fed3799eae4dc9f903d781faf5db9596b53b8f4511"
+          },
+          {
+            "collection": "mlbb_youtube",
+            "document_count": 2445,
+            "manifest": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\data\\imports\\firestore-4079b846dc4545b4b9b05e2e292f90af\\manifest.json",
+            "records_sha256": "2fc2d1b859214ea0640397beecce9f52ce01909b3aacbcc42d571cfa676c2c51"
+          }
+        ],
+        "timing_basis": "Original notebook and archived records omit collection time. Firestore document updateTime supplies only a no-later-than bound; export time is recorded separately."
+      },
+      "raw_path": "D:\\Projects\\Dataen-Rov_vs_Mlbb\\artifacts\\real\\runs\\fd1a7d895cb3477ea72591e4199e5e38\\raw\\youtube.json",
+      "raw_sha256": "fd97e5e0d668e539bb982a72f1cc4f49b390bfdb2ca26812eb38c7e7e694e08b",
+      "reasons": {},
+      "rejected_fraction": 0.0,
+      "rejected_rows": 0,
+      "source": "youtube"
+    }
+  },
+  "started_at": "2026-11-02T15:29:35.284912+00:00",
+  "status": "partial",
+  "summary_rows": 30
+}

@@ -1,0 +1,88 @@
+{
+  "alternative_run_id": "97868468efa24fb986b79948cbcb4a8e",
+  "design": "Post hoc descriptive equal-length windows, not a pre-registered causal analysis. All archival API sampling remains unverified/partial.",
+  "matched_windows": [
+    {
+      "calendar_days": 122,
+      "end": "2025-07",
+      "game": "rov",
+      "mean_rating": 2.8408582923558336,
+      "period": "before",
+      "reviews": 2237,
+      "search_interest": 33.52459016393443,
+      "start": "2025-04",
+      "videos": 1090
+    },
+    {
+      "calendar_days": 122,
+      "end": "2025-11",
+      "game": "rov",
+      "mean_rating": 2.3906339234723015,
+      "period": "after",
+      "reviews": 5253,
+      "search_interest": 32.09016393442623,
+      "start": "2025-08",
+      "videos": 885
+    },
+    {
+      "calendar_days": 122,
+      "end": "2025-07",
+      "game": "mlbb",
+      "mean_rating": 3.282828282828283,
+      "period": "before",
+      "reviews": 396,
+      "search_interest": 2.598360655737705,
+      "start": "2025-04",
+      "videos": 259
+    },
+    {
+      "calendar_days": 122,
+      "end": "2025-11",
+      "game": "mlbb",
+      "mean_rating": 3.8082107843137254,
+      "period": "after",
+      "reviews": 1632,
+      "search_interest": 5.221311475409836,
+      "start": "2025-08",
+      "videos": 542
+    }
+  ],
+  "original_notebook_sha256": "bdf9a621f15a8e066b51785f1249425ed2b403cd7b310e6e364c74ba24d5776f",
+  "run_id": "fd1a7d895cb3477ea72591e4199e5e38",
+  "timezone_sensitivity": {
+    "changed_month_reviews": 90,
+    "interior_max_count_difference": 13.0,
+    "interior_max_rating_difference": 0.028205128205128105,
+    "interior_months": "2025-04 through 2026-01; archive sampling remains partial",
+    "max_month_game_count_difference": 13.0,
+    "max_month_game_rating_difference": 0.2386470404008767,
+    "total_reviews": 16288
+  },
+  "title_audit": {
+    "channel_sensitivity": [
+      {
+        "after_active_channels": 18,
+        "after_videos_in_shared_channels": 885,
+        "before_active_channels": 19,
+        "before_videos_in_shared_channels": 1089,
+        "game": "rov",
+        "shared_active_channels": 18
+      },
+      {
+        "after_active_channels": 18,
+        "after_videos_in_shared_channels": 366,
+        "before_active_channels": 12,
+        "before_videos_in_shared_channels": 259,
+        "game": "mlbb",
+        "shared_active_channels": 12
+      }
+    ],
+    "declared_channels": 28,
+    "limitation": "Rule consistency only, not semantic accuracy or recall. Excluded/uncollected videos cannot be audited from this archive.",
+    "observed_channels": 28,
+    "original_rule_mismatches": 0,
+    "titles_mentioning_both_games_ignoring_case": 0,
+    "total_videos": 5826,
+    "videos_outside_declared_channels": 0
+  }
+}

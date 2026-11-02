@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "source": "youtube",
+  "data_kind": "sample",
+  "collected_at": "2025-04-02T00:00:00Z",
+  "context": {
+    "selection": "SYNTHETIC fixture channels; not actual YouTube videos"
+  },
+  "coverage": {
+    "rov": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    },
+    "mlbb": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    }
+  },
+  "records": [
+    {
+      "game": "rov",
+      "video_id": "sample-rov-1-0",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 1/0",
+      "published_at": "2025-01-02T08:00:00Z",
+      "views": 100,
+      "likes": 10
+    },
+    {
+      "game": "rov",
+      "video_id": "sample-rov-1-1",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 1/1",
+      "published_at": "2025-01-03T08:00:00Z",
+      "views": 300,
+      "likes": 30
+    },
+    {
+      "game": "rov",
+      "video_id": "sample-rov-2-0",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 2/0",
+      "published_at": "2025-02-02T08:00:00Z",
+      "views": 200,
+      "likes": 20
+    },
+    {
+      "game": "rov",
+      "video_id": "sample-rov-2-1",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 2/1",
+      "published_at": "2025-02-03T08:00:00Z",
+      "views": 600,
+      "likes": 60
+    },
+    {
+      "game": "rov",
+      "video_id": "sample-rov-3-0",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 3/0",
+      "published_at": "2025-03-02T08:00:00Z",
+      "views": 300,
+      "likes": 30
+    },
+    {
+      "game": "rov",
+      "video_id": "sample-rov-3-1",
+      "channel_id": "sample-rov-channel",
+      "title": "SYNTHETIC ROV video 3/1",
+      "published_at": "2025-03-03T08:00:00Z",
+      "views": 900,
+      "likes": 90
+    },
+    {
+      "game": "mlbb",
+      "video_id": "sample-mlbb-1-0",
+      "channel_id": "sample-mlbb-channel",
+      "title": "SYNTHETIC MLBB video 1/0",
+      "published_at": "2025-01-02T08:00:00Z",
+      "views": 100,
+      "likes": 10
+    },
+    {
+      "game": "mlbb",
+      "video_id": "sample-mlbb-1-1",
+      "channel_id": "sample-mlbb-channel",
+      "title": "SYNTHETIC MLBB video 1/1",
+      "published_at": "2025-01-03T08:00:00Z",
+      "views": 300,
+      "likes": 30
+    },
+    {
+      "game": "mlbb",
+      "video_id": "sample-mlbb-2-0",
+      "channel_id": "sample-mlbb-channel",
+      "title": "SYNTHETIC MLBB video 2/0",
+      "published_at": "2025-02-02T08:00:00Z",
+      "views": 200,
+      "likes": 20
+    },
+    {
+      "game": "mlbb",
+      "video_id": "sample-mlbb-2-1",
+      "channel_id": "sample-mlbb-channel",
+      "title": "SYNTHETIC MLBB video 2/1",
+      "published_at": "2025-02-03T08:00:00Z",
+      "views": 600,
+      "likes": 60
+    }
+  ]
+}

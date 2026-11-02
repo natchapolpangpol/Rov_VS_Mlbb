@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rov-mlbb-pipeline"
+version = "0.1.0"
+description = "Reproducible multi-source game-interest pipeline with SQLite and quality gates"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2", "pyarrow>=17", "requests>=2.32", "matplotlib>=3.9", "truststore>=0.10.4"]
+
+[project.optional-dependencies]
+collect = ["google-play-scraper==1.2.7", "pytrends==4.9.2"]
+orchestration = ["prefect>=3,<4"]
+firestore = ["google-auth>=2"]
+dev = ["pytest>=8", "nbformat>=5", "nbclient>=0.10", "ipykernel>=6", "ipywidgets>=8"]
+
+[project.scripts]
+rov-mlbb = "rov_mlbb.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

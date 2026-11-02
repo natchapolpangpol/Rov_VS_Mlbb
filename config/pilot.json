@@ -1,0 +1,24 @@
+{
+  "project_root": "..",
+  "study_start": "2026-10-01",
+  "study_end": "2026-10-31",
+  "timezone": "Asia/Bangkok",
+  "trends": {
+    "terms": {
+      "rov": "rov",
+      "mlbb": "mlbb"
+    }
+  },
+  "youtube": {
+    "channels": [
+      "UCy19QXxbCHh8qVVCbuGk-ig",
+      "UC8aSgy03oQ7aQmJ2e5SrzBg"
+    ],
+    "max_pages_per_channel": 5
+  },
+  "playstore": {
+    "language": "th",
+    "max_pages_per_game": 1
+  },
+  "note": "Bounded connectivity/coverage pilot only, not the final study window. One review page per game."
+}

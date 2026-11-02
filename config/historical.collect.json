@@ -1,0 +1,8 @@
+{
+  "project_root": "..",
+  "study_start": "2025-01-01",
+  "study_end": "2026-03-10",
+  "timezone": "Asia/Bangkok",
+  "trends": {"terms": {"rov": "rov", "mlbb": "mlbb"}},
+  "note": "Historical analysis window derived from RovVsMlbb_Pipeline.ipynb cell 16. Collect Trends jointly once; YouTube and Play Store come from the archived team Firestore export, with their original timing limitations retained."
+}

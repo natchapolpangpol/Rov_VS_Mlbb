@@ -1,0 +1,15 @@
+{
+  "after_observations": 22580,
+  "before_observations": 22580,
+  "first_run": "fd1a7d895cb3477ea72591e4199e5e38",
+  "second_run": "20a3ec2399584180b20d203fcf70bf54",
+  "status": "passed",
+  "timezone_comparison": {
+    "alternative_run": "97868468efa24fb986b79948cbcb4a8e",
+    "base_run": "fd1a7d895cb3477ea72591e4199e5e38",
+    "changed_month_reviews": 90,
+    "max_month_game_count_difference": 13,
+    "max_month_game_rating_difference": 0.2386470404008767,
+    "total_reviews": 16288
+  }
+}

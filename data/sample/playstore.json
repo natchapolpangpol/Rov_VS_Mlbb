@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "source": "playstore",
+  "data_kind": "sample",
+  "collected_at": "2025-04-02T00:00:00Z",
+  "context": {
+    "selection": "SYNTHETIC fixture reviews; not actual Play Store reviews"
+  },
+  "coverage": {
+    "rov": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    },
+    "mlbb": {
+      "status": "complete",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "note": "Complete only within this deterministic synthetic fixture"
+    }
+  },
+  "records": [
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-1-0",
+      "reviewed_at": "2025-01-02T08:00:00Z",
+      "rating": 4,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-1-1",
+      "reviewed_at": "2025-01-03T08:00:00Z",
+      "rating": 2,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-2-0",
+      "reviewed_at": "2025-02-02T08:00:00Z",
+      "rating": 4,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-2-1",
+      "reviewed_at": "2025-02-03T08:00:00Z",
+      "rating": 2,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-3-0",
+      "reviewed_at": "2025-03-02T08:00:00Z",
+      "rating": 4,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-3-1",
+      "reviewed_at": "2025-03-03T08:00:00Z",
+      "rating": 2,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-1-0",
+      "reviewed_at": "2025-01-02T08:00:00Z",
+      "rating": 5,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-1-1",
+      "reviewed_at": "2025-01-03T08:00:00Z",
+      "rating": 3,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-2-0",
+      "reviewed_at": "2025-02-02T08:00:00Z",
+      "rating": 5,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-2-1",
+      "reviewed_at": "2025-02-03T08:00:00Z",
+      "rating": 3,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-3-0",
+      "reviewed_at": "2025-03-02T08:00:00Z",
+      "rating": 5,
+      "language": "th"
+    },
+    {
+      "game": "mlbb",
+      "app_id": "com.mobile.legends",
+      "review_id": "sample-mlbb-3-1",
+      "reviewed_at": "2025-03-03T08:00:00Z",
+      "rating": 3,
+      "language": "th"
+    },
+    {
+      "game": "rov",
+      "app_id": "com.garena.game.kgth",
+      "review_id": "sample-rov-1-0",
+      "reviewed_at": "2025-01-02T08:00:00Z",
+      "rating": 4,
+      "language": "th"
+    }
+  ]
+}
